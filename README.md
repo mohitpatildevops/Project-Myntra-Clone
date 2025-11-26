@@ -198,12 +198,12 @@ pipeline {
     environment {
         SCANNER_HOME          = tool 'sonar-scanner'
         DOCKER_IMAGE          = 'myntraa'
-        DOCKER_REGISTRY       = 'abhipraydh96'
+        DOCKER_REGISTRY       = 'mohitpatil0600'
         DOCKER_CREDENTIALS_ID = 'docker-cred'
         MANIFEST_FILE         = 'k8s/deployment.yml'
         GIT_REPO_NAME         = 'Project-Myntra-Clone'
-        GIT_USER_NAME         = 'abhipraydhoble'
-        GIT_EMAIL             = 'abhipraydh96@gmail.com'
+        GIT_USER_NAME         = 'mohitpatildevops'
+        GIT_EMAIL             = 'mohitpatil121216@gmail.com'
     }
 
     stages {
